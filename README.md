@@ -6,7 +6,9 @@ This small plugin will store the number of times a file was downloaded and the l
 
 To install this plugin, just download the zip version of this repository and unzip it under `/grav/user/plugins`. Then, rename the folder to `downloads-counter`.
 
-The only thing that you have to do to make it work, is enable it.
+## Configuration
+
+The only thing that you have to do is enable it!
 
 ## Usage
 
