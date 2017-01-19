@@ -5,11 +5,10 @@ icon: cloud-download
 author:
   name: Filis Futsarov
   email: filisfutsarov@gmail.com
-homepage: https://github.com/filis-futsarov/grav-plugin-downloads-counter
-demo: http://demo.yoursite.com
+homepage: https://github.com/filisko/grav-plugin-downloads-counter
 keywords: plugin, downloads, counter
-bugs: https://github.com/filis-futsarov/grav-plugin-downloads-counter/issues
-docs: https://github.com/filis-futsarov/grav-plugin-downloads-counter/blob/develop/README.md
+bugs: https://github.com/filisko/grav-plugin-downloads-counter/issues
+docs: https://github.com/filisko/grav-plugin-downloads-counter/blob/master/README.md
 license: MIT
 
 dependencies:
