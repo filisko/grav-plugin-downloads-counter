@@ -8,7 +8,7 @@ To install this plugin, just download the zip version of this repository and unz
 
 ## Configuration
 
-The only thing that you have to do is enable it.
+The only thing that you have to do is enable it manually or from the administration panel once it's installed.
 
 ## Usage
 
