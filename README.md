@@ -25,4 +25,4 @@ To see the downloads counter information, you can go to `/grav/user/data/downloa
 ![Image of Yaktocat](/assets/3.png)
 
 ## Notes
-If you have any ideas to improve it, just let me know!
+Let me know if you have any ideas to improve it.
