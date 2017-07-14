@@ -1,6 +1,6 @@
 # Grav Downloads Counter Plugin
 
-This small plugin will store the number of times a file was downloaded and the last time it happened.
+This small plugin will store the number of times a file was downloaded, and the last time it was downloaded.
 
 ## Installation
 
