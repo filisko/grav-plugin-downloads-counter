@@ -8,11 +8,11 @@ To install this plugin, just download the zip version of this repository and unz
 
 ## Configuration
 
-The only thing that you have to do is enable it!
+The only thing that you have to do is enable it.
 
 ## Usage
 
-To see the collected data about downloads, you can go to `/grav/user/data/downloads-counter` and go through the files, or instead **(recommended)**, get the [Data Manager plugin](https://github.com/getgrav/grav-plugin-data-manager) and go to Downloads counter section.
+To see the downloads counter information, you can go to `/grav/user/data/downloads-counter` folder and go through the files, or instead **(recommended)**, get the [Data Manager plugin](https://github.com/getgrav/grav-plugin-data-manager) and go to Downloads counter section.
 
 ### Views
 #### First step with Data Manager. Click on 'items' in 'Downloads counter' section.
