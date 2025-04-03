@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## 0.2.0 - 2025-04-03
 ### Added
-- New form field to add `preg_match()` regexp patterns, one per line. Example:
+A new form field was added to the configuration page in order to add the possibility to ignore files from being counted by their name.
+Each line must contain a regex expression compatible with `preg_match()`. Example:
 ```text
 /\.zip$/
 /\.sh/
