@@ -1,14 +1,11 @@
 <?php
+
 namespace Grav\Plugin;
 
 use Grav\Common\Plugin;
 use RocketTheme\Toolbox\Event\Event;
 use RocketTheme\Toolbox\File\File;
 
-/**
- * Class DownloadsCounterPlugin
- * @package Grav\Plugin
- */
 class DownloadsCounterPlugin extends Plugin
 {
     public static function getSubscribedEvents()
@@ -18,9 +15,6 @@ class DownloadsCounterPlugin extends Plugin
         ];
     }
 
-    /**
-     * Initialize the plugin
-     */
     public function onPluginsInitialized()
     {
         // Don't proceed if we are in the admin plugin
@@ -34,12 +28,19 @@ class DownloadsCounterPlugin extends Plugin
         ]);
     }
 
-    /**
-     * onBeforeDownload event
-     * @param  Event  $event
-     */
     public function onBeforeDownload(Event $event)
     {
+        $ignorePatterns = $this->grav['config']->get('plugins.downloads-counter.ignorePatterns');
+
+        if (is_string($ignorePatterns)) {
+            foreach (array_filter(explode(PHP_EOL, $ignorePatterns)) as $pattern) {
+
+                if (preg_match($pattern, $event['file'])) {
+                    return;
+                };
+            }
+        }
+
         $filename = basename($event['file']).'.txt';
         $locator = $this->grav['locator'];
         $path = $locator->findResource('user://data', true);

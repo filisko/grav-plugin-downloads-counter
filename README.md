@@ -1,6 +1,6 @@
 # Grav Downloads Counter Plugin
 
-This small plugin will store the number of times a file was downloaded, and the last time it was downloaded.
+This small plugin will store the number of times a file was downloaded and the last time it happened.
 
 ## Installation
 
@@ -8,11 +8,11 @@ To install this plugin, just download the zip version of this repository and unz
 
 ## Configuration
 
-The only thing that you have to do is enable it manually or from the administration panel once it's installed.
+The only thing that you have to do is enable it!
 
 ## Usage
 
-To see the downloads counter information, you can go to `/grav/user/data/downloads-counter` folder and go through the files, or instead **(recommended)**, get the [Data Manager plugin](https://github.com/getgrav/grav-plugin-data-manager) and go to Downloads counter section.
+To see the collected data about downloads, you can go to `/grav/user/data/downloads-counter` and go through the files, or instead **(recommended)**, get the [Data Manager plugin](https://github.com/getgrav/grav-plugin-data-manager) and go to Downloads counter section.
 
 ### Views
 #### First step with Data Manager. Click on 'items' in 'Downloads counter' section.
@@ -25,4 +25,4 @@ To see the downloads counter information, you can go to `/grav/user/data/downloa
 ![Image of Yaktocat](/assets/3.png)
 
 ## Notes
-Let me know if you have any ideas to improve it.
+If you have any ideas to improve it, just let me know!
