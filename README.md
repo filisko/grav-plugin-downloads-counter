@@ -26,3 +26,8 @@ To see the collected data about downloads, you can go to `/grav/user/data/downlo
 
 ## Notes
 If you have any ideas to improve it, just let me know!
+
+Please see [CHANGELOG](CHANGELOG.md) for more information about recent changes.
+
+The MIT License (MIT). Please see [LICENSE](LICENSE) for more information.
+
