@@ -48,7 +48,7 @@ class DownloadsCounterPlugin extends Plugin
         $fullFileName = $dir. DS . $filename;
 
         $file = File::instance($fullFileName);
-        $last_download = "\nlast download: ".date('d/m/Y H:i:s');
+        $last_download = "\nlast download: " . date('d/m/Y H:i:s') . "\n";
 
         // If file was downloaded previously, update last download and increase the counter
         if ($file->exists()) {
